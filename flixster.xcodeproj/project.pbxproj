@@ -18,6 +18,11 @@
 		A17A968D26A1A7AE00EC1B2A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A968C26A1A7AE00EC1B2A /* MovieTableViewCell.swift */; };
 		A17A969026A1B00500EC1B2A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A17A968F26A1B00500EC1B2A /* Alamofire */; };
 		A17A969326A1B06300EC1B2A /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = A17A969226A1B06300EC1B2A /* AlamofireImage */; };
+		A17A969526A24C1200EC1B2A /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A969426A24C1200EC1B2A /* MovieDetailsViewController.swift */; };
+		A17A969726A263D100EC1B2A /* SuperHeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A969626A263D100EC1B2A /* SuperHeroViewController.swift */; };
+		A17A969B26A2679A00EC1B2A /* SuperHeroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A969A26A2679A00EC1B2A /* SuperHeroCollectionViewCell.swift */; };
+		A17A969D26A26F8D00EC1B2A /* SuperHeroDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A969C26A26F8D00EC1B2A /* SuperHeroDetailsViewController.swift */; };
+		A17A969F26A2736D00EC1B2A /* MovieTrailerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17A969E26A2736D00EC1B2A /* MovieTrailerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		A17A967E26A1A23100EC1B2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A17A968A26A1A2E400EC1B2A /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		A17A968C26A1A7AE00EC1B2A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		A17A969426A24C1200EC1B2A /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		A17A969626A263D100EC1B2A /* SuperHeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroViewController.swift; sourceTree = "<group>"; };
+		A17A969A26A2679A00EC1B2A /* SuperHeroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroCollectionViewCell.swift; sourceTree = "<group>"; };
+		A17A969C26A26F8D00EC1B2A /* SuperHeroDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeroDetailsViewController.swift; sourceTree = "<group>"; };
+		A17A969E26A2736D00EC1B2A /* MovieTrailerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTrailerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,9 @@
 		A17A965926A1A22F00EC1B2A /* flixster */ = {
 			isa = PBXGroup;
 			children = (
+				A17A969E26A2736D00EC1B2A /* MovieTrailerViewController.swift */,
+				A17A969C26A26F8D00EC1B2A /* SuperHeroDetailsViewController.swift */,
+				A17A969626A263D100EC1B2A /* SuperHeroViewController.swift */,
 				A17A965A26A1A22F00EC1B2A /* AppDelegate.swift */,
 				A17A965C26A1A22F00EC1B2A /* SceneDelegate.swift */,
 				A17A966026A1A22F00EC1B2A /* Main.storyboard */,
@@ -113,6 +126,8 @@
 				A17A966526A1A23100EC1B2A /* LaunchScreen.storyboard */,
 				A17A966826A1A23100EC1B2A /* Info.plist */,
 				A17A968C26A1A7AE00EC1B2A /* MovieTableViewCell.swift */,
+				A17A969426A24C1200EC1B2A /* MovieDetailsViewController.swift */,
+				A17A969A26A2679A00EC1B2A /* SuperHeroCollectionViewCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -273,6 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A17A969F26A2736D00EC1B2A /* MovieTrailerViewController.swift in Sources */,
+				A17A969B26A2679A00EC1B2A /* SuperHeroCollectionViewCell.swift in Sources */,
+				A17A969D26A26F8D00EC1B2A /* SuperHeroDetailsViewController.swift in Sources */,
+				A17A969726A263D100EC1B2A /* SuperHeroViewController.swift in Sources */,
+				A17A969526A24C1200EC1B2A /* MovieDetailsViewController.swift in Sources */,
 				A17A965B26A1A22F00EC1B2A /* AppDelegate.swift in Sources */,
 				A17A965D26A1A22F00EC1B2A /* SceneDelegate.swift in Sources */,
 				A17A968D26A1A7AE00EC1B2A /* MovieTableViewCell.swift in Sources */,
